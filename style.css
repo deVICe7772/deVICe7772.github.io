@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+  }
+  
+  .intro {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  .intro video {
+    height: 100;
+    width: 100;
+    max-height: 100%;
+    min-width: 100%;
+    max-width:100%;
+    
+    object-fit: cover;
+    z-index: 30;
+    margin-bottom: 50px;
+  }
+  
+  .intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+  }
+  .move{
+      margin-top: 9000px;
+
+  }
+  
+  .icons a{
+      align-items: center;
+      
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #08306F;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  #navbar {
+    background-color: #333;
+    position: fixed;
+    /* top: -50px; */
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 50;
+  }
+  .img-fluid{
+      padding:5%; 
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  section {
+    height: 100vh;
+    color: black;
+    /* z-index: -1; */
+  }
+  /* .carousel.slide{
+    margin-top: 8990px;
+  } */
+  .carousel-inner img {
+    
+    width: 100%;
+    height: 100%;
+    
+  }
+  .carousel slide{
+      padding: 20px;
+  }
+  section h1 {
+    
+    text-align: center;
+    font-size: 80px;
+    z-index: 0;
+    font-family: 'Josefin Sans', sans-serif;
+      font-size: 40px;
+  }
+ .bg-music{
+     position: absolute;
+     top: 64%;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+
+ }
+ .btn{
+     background-color: transparent;
+     color: black;
+     font-size: 78px;
+      border: none;
+      display: block;
+      margin: 0 auto;
+      opacity: 0.3;
+      transition: all linear 0.2s;
+
+
+
+ }
+ 
+ .navbar{
+     position: fixed;
+ }
+ .btn:hover{
+     opacity:1;
+
+ }
+ .footer-wrapper{
+     
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 30%;
+    margin-left: 0%;
+    left: 0%; 
+    margin-top: 10px;
+    padding-top: 10px;
+    z-index:10;
+
+ }
